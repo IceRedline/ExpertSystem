@@ -6,30 +6,35 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		99A6DF992D8964B1006F55A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A6DF8E2D8964B1006F55A3 /* AppDelegate.swift */; };
+		99A6DF9A2D8964B1006F55A3 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A6DF952D8964B1006F55A3 /* ResultViewController.swift */; };
+		99A6DF9B2D8964B1006F55A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A6DF962D8964B1006F55A3 /* SceneDelegate.swift */; };
+		99A6DF9C2D8964B1006F55A3 /* LaptopExpertSystemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A6DF972D8964B1006F55A3 /* LaptopExpertSystemViewController.swift */; };
+		99A6DF9D2D8964B1006F55A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99A6DF8F2D8964B1006F55A3 /* Assets.xcassets */; };
+		99A6DF9F2D8964B1006F55A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A6DF922D8964B1006F55A3 /* LaunchScreen.storyboard */; };
+		99A6DFA02D8964B1006F55A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A6DF942D8964B1006F55A3 /* Main.storyboard */; };
+		99A6DFA32D8964FE006F55A3 /* Rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A6DFA22D8964FE006F55A3 /* Rule.swift */; };
+		99A6DFA52D896517006F55A3 /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A6DFA42D896517006F55A3 /* UserPreferences.swift */; };
+		99A6DFA72D89652E006F55A3 /* LaptopExpertSystemPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A6DFA62D89652E006F55A3 /* LaptopExpertSystemPresenter.swift */; };
+		99A6DFA92D8972B2006F55A3 /* LaptopExpertSystemViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A6DFA82D8972B2006F55A3 /* LaptopExpertSystemViewControllerProtocol.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		99A6DF742D896379006F55A3 /* ExpertSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpertSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99A6DF8E2D8964B1006F55A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99A6DF8F2D8964B1006F55A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99A6DF902D8964B1006F55A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99A6DF912D8964B1006F55A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99A6DF932D8964B1006F55A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99A6DF952D8964B1006F55A3 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		99A6DF962D8964B1006F55A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		99A6DF972D8964B1006F55A3 /* LaptopExpertSystemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopExpertSystemViewController.swift; sourceTree = "<group>"; };
+		99A6DFA22D8964FE006F55A3 /* Rule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rule.swift; sourceTree = "<group>"; };
+		99A6DFA42D896517006F55A3 /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
+		99A6DFA62D89652E006F55A3 /* LaptopExpertSystemPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopExpertSystemPresenter.swift; sourceTree = "<group>"; };
+		99A6DFA82D8972B2006F55A3 /* LaptopExpertSystemViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopExpertSystemViewControllerProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		99A6DF862D89637B006F55A3 /* Exceptions for "ExpertSystem" folder in "ExpertSystem" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 99A6DF732D896379006F55A3 /* ExpertSystem */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		99A6DF762D896379006F55A3 /* ExpertSystem */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				99A6DF862D89637B006F55A3 /* Exceptions for "ExpertSystem" folder in "ExpertSystem" target */,
-			);
-			path = ExpertSystem;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		99A6DF712D896379006F55A3 /* Frameworks */ = {
@@ -45,7 +50,8 @@
 		99A6DF6B2D896379006F55A3 = {
 			isa = PBXGroup;
 			children = (
-				99A6DF762D896379006F55A3 /* ExpertSystem */,
+				99A6DFA12D8964E6006F55A3 /* Models */,
+				99A6DF982D8964B1006F55A3 /* ExpertSystem */,
 				99A6DF752D896379006F55A3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +62,32 @@
 				99A6DF742D896379006F55A3 /* ExpertSystem.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		99A6DF982D8964B1006F55A3 /* ExpertSystem */ = {
+			isa = PBXGroup;
+			children = (
+				99A6DF8E2D8964B1006F55A3 /* AppDelegate.swift */,
+				99A6DF962D8964B1006F55A3 /* SceneDelegate.swift */,
+				99A6DFA62D89652E006F55A3 /* LaptopExpertSystemPresenter.swift */,
+				99A6DF972D8964B1006F55A3 /* LaptopExpertSystemViewController.swift */,
+				99A6DF952D8964B1006F55A3 /* ResultViewController.swift */,
+				99A6DF922D8964B1006F55A3 /* LaunchScreen.storyboard */,
+				99A6DF942D8964B1006F55A3 /* Main.storyboard */,
+				99A6DF8F2D8964B1006F55A3 /* Assets.xcassets */,
+				99A6DF902D8964B1006F55A3 /* Info.plist */,
+			);
+			path = ExpertSystem;
+			sourceTree = "<group>";
+		};
+		99A6DFA12D8964E6006F55A3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				99A6DFA22D8964FE006F55A3 /* Rule.swift */,
+				99A6DFA42D896517006F55A3 /* UserPreferences.swift */,
+				99A6DFA82D8972B2006F55A3 /* LaptopExpertSystemViewControllerProtocol.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +104,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				99A6DF762D896379006F55A3 /* ExpertSystem */,
 			);
 			name = ExpertSystem;
 			packageProductDependencies = (
@@ -122,6 +151,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99A6DF9D2D8964B1006F55A3 /* Assets.xcassets in Resources */,
+				99A6DF9F2D8964B1006F55A3 /* LaunchScreen.storyboard in Resources */,
+				99A6DFA02D8964B1006F55A3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +164,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99A6DF992D8964B1006F55A3 /* AppDelegate.swift in Sources */,
+				99A6DFA72D89652E006F55A3 /* LaptopExpertSystemPresenter.swift in Sources */,
+				99A6DFA52D896517006F55A3 /* UserPreferences.swift in Sources */,
+				99A6DFA32D8964FE006F55A3 /* Rule.swift in Sources */,
+				99A6DF9A2D8964B1006F55A3 /* ResultViewController.swift in Sources */,
+				99A6DF9B2D8964B1006F55A3 /* SceneDelegate.swift in Sources */,
+				99A6DF9C2D8964B1006F55A3 /* LaptopExpertSystemViewController.swift in Sources */,
+				99A6DFA92D8972B2006F55A3 /* LaptopExpertSystemViewControllerProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99A6DF922D8964B1006F55A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99A6DF912D8964B1006F55A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		99A6DF942D8964B1006F55A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99A6DF932D8964B1006F55A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		99A6DF882D89637B006F55A3 /* Debug */ = {
