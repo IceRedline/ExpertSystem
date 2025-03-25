@@ -93,10 +93,18 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Выбор ноутбука" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iNW-lI-7SM">
+                                <rect key="frame" x="69.333333333333329" y="118.99999999999999" width="254.66666666666669" height="38.333333333333329"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="iNW-lI-7SM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6Se-c4-jYD"/>
+                            <constraint firstItem="iNW-lI-7SM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="B9s-C5-H8H"/>
                             <constraint firstItem="gq2-K1-8hO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GP5-Lc-Ebh"/>
                             <constraint firstItem="gq2-K1-8hO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="250" id="noC-gH-9aQ"/>
                         </constraints>
@@ -128,13 +136,13 @@
                                         <constraints>
                                             <constraint firstAttribute="width" constant="250" id="x2Y-VJ-zNv"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="recommendationLabel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8F0-VV-UJN">
-                                        <rect key="frame" x="64.666666666666643" y="127.00000000000003" width="170.33333333333337" height="119"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <rect key="frame" x="51.666666666666671" y="127.00000000000003" width="196.33333333333331" height="119"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -152,12 +160,20 @@
                                     <constraint firstAttribute="width" constant="300" id="QJE-yt-wS4"/>
                                 </constraints>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Выбор ноутбука" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PPY-ev-0jo">
+                                <rect key="frame" x="69.333333333333329" y="118.99999999999999" width="254.66666666666669" height="38.333333333333329"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rD6-63-XwH"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="8Vk-xz-exY" firstAttribute="centerX" secondItem="Ukw-8h-JlB" secondAttribute="centerX" id="0ae-Xd-UX7"/>
                             <constraint firstItem="8Vk-xz-exY" firstAttribute="centerY" secondItem="Ukw-8h-JlB" secondAttribute="centerY" id="FQ4-bM-wGI"/>
+                            <constraint firstItem="PPY-ev-0jo" firstAttribute="centerX" secondItem="Ukw-8h-JlB" secondAttribute="centerX" id="hzG-fM-IwK"/>
+                            <constraint firstItem="PPY-ev-0jo" firstAttribute="top" secondItem="rD6-63-XwH" secondAttribute="top" constant="60" id="kIq-QC-zg0"/>
                         </constraints>
                     </view>
                     <connections>

@@ -18,6 +18,7 @@
 		99A6DFA52D896517006F55A3 /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A6DFA42D896517006F55A3 /* UserPreferences.swift */; };
 		99A6DFA72D89652E006F55A3 /* LaptopExpertSystemPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A6DFA62D89652E006F55A3 /* LaptopExpertSystemPresenter.swift */; };
 		99A6DFA92D8972B2006F55A3 /* LaptopExpertSystemViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A6DFA82D8972B2006F55A3 /* LaptopExpertSystemViewControllerProtocol.swift */; };
+		99B6491D2D92AD420092A4DC /* Laptop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B6491C2D92AD420092A4DC /* Laptop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		99A6DFA42D896517006F55A3 /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
 		99A6DFA62D89652E006F55A3 /* LaptopExpertSystemPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopExpertSystemPresenter.swift; sourceTree = "<group>"; };
 		99A6DFA82D8972B2006F55A3 /* LaptopExpertSystemViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopExpertSystemViewControllerProtocol.swift; sourceTree = "<group>"; };
+		99B6491C2D92AD420092A4DC /* Laptop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laptop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			children = (
 				99A6DF8E2D8964B1006F55A3 /* AppDelegate.swift */,
 				99A6DF962D8964B1006F55A3 /* SceneDelegate.swift */,
+				99B6491C2D92AD420092A4DC /* Laptop.swift */,
 				99A6DFA62D89652E006F55A3 /* LaptopExpertSystemPresenter.swift */,
 				99A6DF972D8964B1006F55A3 /* LaptopExpertSystemViewController.swift */,
 				99A6DF952D8964B1006F55A3 /* ResultViewController.swift */,
@@ -166,6 +169,7 @@
 			files = (
 				99A6DF992D8964B1006F55A3 /* AppDelegate.swift in Sources */,
 				99A6DFA72D89652E006F55A3 /* LaptopExpertSystemPresenter.swift in Sources */,
+				99B6491D2D92AD420092A4DC /* Laptop.swift in Sources */,
 				99A6DFA52D896517006F55A3 /* UserPreferences.swift in Sources */,
 				99A6DFA32D8964FE006F55A3 /* Rule.swift in Sources */,
 				99A6DF9A2D8964B1006F55A3 /* ResultViewController.swift in Sources */,
